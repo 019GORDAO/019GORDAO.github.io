@@ -1,7 +1,7 @@
 <?php 
 
 $nick = addcslashes($_POST [ 'name' ])
-$message = addcslashes($_POST [ 'messa'])
+$message = addcslashes($_POST [ 'message'])
 
 $to = "019ceifador@gmail.com";
 $subjet = "ideias pra vídeo";
