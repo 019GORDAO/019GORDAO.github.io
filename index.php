@@ -7,8 +7,7 @@ $to = "019ceifador@gmail.com";
 $subjet = "ideias pra vídeo";
 $body = "NICK: ".$nick."\n"
 "MESSAGE: ".$message;
-$heador = "019ceifador@gmail.com"."\r\n"."Reply-To:".$email."\r\n"."X=Mailer:PHP/".phpversion();
-
+$heador = "019ceifador@gmail.com"."\r\n";
 if(mail($to,$subjet,$body,$heador)){
   echo("sua ideia de vídeo ta na mão do 019 ?")
 } else {
